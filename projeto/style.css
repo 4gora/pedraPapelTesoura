@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    189deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 206, 255, 1) 100%
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 60px;
+    margin: 2vh;
+}
+
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.playSite {
+  background-color: aliceblue;
+  border-radius: 8px;
+  flex: calc(33.33% - 20px); /* A largura é dividida em 33.33% com margem de 10px em cada lado */
+  margin: 5px;
+}
+
+
+#resDiv {
+  flex-basis: 100%;
+}
